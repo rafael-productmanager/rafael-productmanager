@@ -2,7 +2,7 @@
 
 # Olá, eu sou o Rafael 👋
 
-**Sr. Product Manager | Co-Founder @ GAIA | AI Builder**
+**Sr. Product Manager | Co-Founder @ GAIA | AI & Data**
 
 📍 Belo Horizonte, Brasil · [LinkedIn](https://www.linkedin.com/in/rafael-leite-macedo/)
 
