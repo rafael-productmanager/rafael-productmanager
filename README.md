@@ -4,7 +4,8 @@
 
 **Sr. Product Manager | Co-Founder @ GAIA | AI & Data**
 
-📍 Belo Horizonte, Brasil · [LinkedIn](https://www.linkedin.com/in/rafael-leite-macedo/)
+📍 Belo Horizonte, Brasil · [LinkedIn](https://www.linkedin.com/in/rafael-leite-macedo/) 
+ [Cofundador](Https://www.grupogaiatech.com.br)
 
 </div>
 
