@@ -28,11 +28,6 @@ Como Co-Founder da GAIA (SaaS B2B/B2G de Gestão de Arborização Urbana), aplic
 
 ---
 
-### 📌 Projetos em destaque
-
-- **[lead-onboarding-automation](https://github.com/rafael-productmanager/lead-onboarding-automation)** — automação em n8n que captura leads de um formulário, trata e padroniza os dados, e dispara boas-vindas por WhatsApp e e-mail. Documentado com arquitetura, JSON do workflow e boas práticas de segurança (nunca versionar tokens/credenciais).
-- **[sql-product-thinking](https://github.com/rafael-productmanager/sql-product-thinking)** — queries SQL organizadas por pergunta de produto, mostrando como eu traduzo dúvidas de negócio em análise de dados.
-
 ### 📫 Contato
 
 [LinkedIn](https://www.linkedin.com/in/rafael-leite-macedo/) · rafaelcicloga@gmail.com
