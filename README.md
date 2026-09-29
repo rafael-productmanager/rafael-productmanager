@@ -27,7 +27,16 @@ Como Co-Founder da GAIA (SaaS B2B/B2G de Gestão de Arborização Urbana), aplic
 | **Product Management** | Discovery, priorização, roadmap, escrita de specs |
 
 ---
+### 🚀 Projeto em destaque — GAIA Hub
 
+Marketplace B2C para regularização ambiental urbana, do zero à produção. Conecta proprietários que precisam regularizar a supressão ou poda de uma árvore junto à prefeitura de São Paulo, profissionais habilitados (biólogos e topógrafos) que executam o serviço técnico, e a equipe da GAIA, que intermedia todo o processo.
+
+Conduzi o produto do zero ao ar — modelagem do fluxo de conformidade (32 etapas, 5 fases, com responsável e regra de transição em cada uma), arquitetura técnica, segurança de dados e operação em produção. Todo o código, da primeira linha à infraestrutura de deploy automatizado, foi escrito em parceria com o Claude, incluindo a investigação e correção de bugs reais em produção.
+
+**Stack:** React + TanStack Start · Supabase (Postgres, RLS, Auth) · Cloudflare Workers · GitHub Actions
+
+🔗 [gaia-arboriza.com.br](https://www.gaia-arboriza.com.br) — repositório privado (produto comercial em produção)
+---
 ### 📫 Contato
 
 [LinkedIn](https://www.linkedin.com/in/rafael-leite-macedo/) · rafaelcicloga@gmail.com
