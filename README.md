@@ -37,8 +37,6 @@ Conduzi o produto do zero ao ar — modelagem do fluxo de conformidade (32 etapa
 
 🔗 [gaia-arboriza.com.br](https://www.gaia-arboriza.com.br) Repositório privado B2G/B2B (produto comercial em produção)
 
-🔗 [gaia-arboriza.com.br/hub](https://www.gaia-arboriza.com.br/hub) Repositório privado B2C (produto comercial em produção)
-
 ---
 ### 📫 Contato
 
