@@ -5,7 +5,7 @@
 **Sr. Product Manager | Co-Founder @ GAIA | AI & Data**
 
 📍 Belo Horizonte, Brasil · [LinkedIn](https://www.linkedin.com/in/rafael-leite-macedo/) 
- [Portfólio](Https://www.grupogaiatech.com.br)
+ [Portfólio](https://www.grupogaiatech.com.br)
 
 </div>
 
@@ -21,10 +21,31 @@ Como Co-Founder da GAIA (SaaS B2B/B2G de Gestão de Arborização Urbana), aplic
 
 | Área | Ferramentas |
 |---|---|
-| **Automação & Workflows** | n8n, Webhooks, APIs REST |
+| **Automação & Workflows** | n8n, Webhooks, APIs REST, WhatsApp Cloud API, Telegram Bot API |
 | **Dados para decisão de produto** | SQL, análise de dados de produto |
-| **IA aplicada** | Python, MCP (Model Context Protocol), prototipagem com LLMs |
+| **IA aplicada** | Python, TypeScript, MCP (Model Context Protocol), RAG, LLMs com fallback entre provedores (Groq, Workers AI, Gemini), guardrails e testes de prompt injection |
+| **Infra serverless** | Cloudflare Workers, D1, Vectorize, Wrangler |
+| **Qualidade** | TDD com Vitest, regressão de segurança para agentes, design orientado à LGPD |
 | **Product Management** | Discovery, priorização, roadmap, escrita de specs |
+
+---
+### 🤖 Projeto em destaque — Agente de atendimento no WhatsApp
+
+Agente de IA que atende leads e dúvidas do Grupo GAIA direto no WhatsApp, em produção. Ele entende a intenção da pessoa, responde com base em uma base de conhecimento própria, qualifica o contato e avisa o time comercial quando há uma oportunidade real. Quando a pergunta foge do que pode responder com segurança, encaminha para uma pessoa em vez de arriscar uma resposta.
+
+O que ele faz:
+- **RAG sobre base própria:** busca vetorial para responder só com o que a empresa afirma, sem inventar preço, prazo ou promessa.
+- **Regras fixas antes do modelo:** temas sensíveis (pagamento, LGPD, urgência, cadastro de profissionais) têm resposta determinística, sem depender do LLM.
+- **Cadeia de LLMs com fallback:** Groq como principal, com Workers AI e Gemini de reserva, para manter o atendimento no ar mesmo com limite de uso.
+- **Guardrails de saída:** a resposta do modelo é validada antes de ir ao cliente; se violar uma regra, vira encaminhamento humano.
+- **Segurança e privacidade:** suíte de regressão contra prompt injection e mascaramento de dados pessoais (CPF, CNPJ, registro de conselho) antes de armazenar ou enviar ao modelo, além de aceite e opção de sair (SAIR).
+- **Operação:** qualificação do lead, registro em planilha, agenda e aviso por Telegram.
+
+Construído com TDD, com mais de 570 testes automatizados, em parceria com o Claude.
+
+**Stack:** TypeScript · Cloudflare Workers, D1 e Vectorize · Workers AI, Groq e Gemini · WhatsApp Cloud API · Google Sheets e Calendar · Telegram Bot API · Vitest · Zod
+
+🔒 Código privado (uso comercial do Grupo GAIA). Posso apresentar o caso e a arquitetura em conversa.
 
 ---
 ### 🚀 Projeto em destaque — GAIA Hub
